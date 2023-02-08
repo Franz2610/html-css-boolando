@@ -37,3 +37,27 @@ header img{
     padding-bottom: 1rem;
     padding-top: .2rem;
 }
+.row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.clothes img{
+    width: 100%;
+    max-width: 400px;
+    
+}
+.clothes{
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+}
+.sconto{
+    padding: 2px;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    bottom:10px;
+    padding-right: 5px;
+}
