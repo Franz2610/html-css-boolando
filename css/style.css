@@ -30,6 +30,11 @@
     color: var(--colortext1);
     padding-bottom: 10px;
 }
+.ftbg{
+    background-color: var(--footer);
+    justify-content: space-between;
+    color: var(--colortext1);
+}
 ul{
     list-style: none;
 }
@@ -117,4 +122,5 @@ header img{
     position: absolute;
     z-index: 1;
     padding: 15px;
+    font-size: 22px;
 }
