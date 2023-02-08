@@ -6,4 +6,34 @@
 :root{
     --footer: #1A1A1A;
     --nav: #FF6900;
+    --colortext1: #ffffff;
+    --colortex2: #000000;
+}
+.debug{
+    border: 1px solid black;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 5px;
+}
+.navbg{
+    background-color:var(--nav);
+    color: var(--colortext1);
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+header img{
+    width: 100px;
+    height: 40px;
+    padding-bottom: 1rem;
+    padding-top: .2rem;
 }
