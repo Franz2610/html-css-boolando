@@ -108,3 +108,13 @@ header img{
     width: 99%;
     display: block;
 }
+.heart{
+    color:var(--colortex2);
+    text-align: center;
+    background-color: var(--colortext1);
+    top: 70px;
+    right: 3px;
+    position: absolute;
+    z-index: 1;
+    padding: 15px;
+}
