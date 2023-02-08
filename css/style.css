@@ -12,8 +12,8 @@
     --sotenibilità: #008f02df;
     --prezzo: #FF0000;
 }
-.debug{
-    border: 1px solid black;
+body{
+    font-family: 'Noto Sans', sans-serif;
 }
 .container{
     margin: 0 auto;
@@ -29,11 +29,13 @@
     background-color:var(--nav);
     color: var(--colortext1);
     padding-bottom: 10px;
+    box-shadow: 10px 10px 5px #dedede;
 }
 .ftbg{
     background-color: var(--footer);
     justify-content: space-between;
     color: var(--colortext1);
+    padding-top: 10px;
 }
 ul{
     list-style: none;
@@ -94,6 +96,7 @@ header img{
 }
 .prezzo{
     color: var(--prezzo);
+    padding-bottom: 50px;
 }
 .prezzo2{
     color: var(--colortex2);
@@ -123,4 +126,9 @@ header img{
     z-index: 1;
     padding: 15px;
     font-size: 22px;
+}
+.icone{
+    color: var(--colortext1);
+    width: 50px;
+    display: flex;
 }
