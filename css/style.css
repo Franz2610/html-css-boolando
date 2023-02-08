@@ -37,6 +37,11 @@ body{
     color: var(--colortext1);
     padding-top: 10px;
 }
+.card{
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 ul{
     list-style: none;
 }
@@ -59,12 +64,10 @@ header img{
 .clothes img{
     width: 100%;
     max-width: 400px;
-    padding-top: 30px;
 }
 .clothes{
     position: relative;
     cursor: pointer;
-    padding: 10px;
 }
 .sconto{
     padding: 2px;
@@ -113,7 +116,7 @@ header img{
 }
 .clothes:hover .invisible{
     position: absolute;
-    width: 99%;
+    width: 100%;
     display: block;
 }
 .heart{
